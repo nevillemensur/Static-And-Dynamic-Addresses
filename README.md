@@ -94,7 +94,7 @@ Task 2: Send the Response to the customer
 </p>
 
 <p>
-Figure: Amazon EC2 instance A networking information. 
+Figure: This is the EC2 dashboard where you can create instances and see an overall snapshot of current instances.. 
 </p>
 <br />
 
