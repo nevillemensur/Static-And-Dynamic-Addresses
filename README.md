@@ -27,7 +27,7 @@ Bob
 Cloud Admin
 
 <p>
-<img src=https://i.imgur.com/NpI57NW.png/>
+<img src=https://i.imgur.com/1Pr6vtH.png>
 </p>
 
 <p>
