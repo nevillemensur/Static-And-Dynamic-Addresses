@@ -26,6 +26,8 @@ Bob
 
 Cloud Admin
 
+<h2>Architecture diagram</h2>
+
 <p>
 <img src=https://i.imgur.com/1Pr6vtH.png>
 </p>
