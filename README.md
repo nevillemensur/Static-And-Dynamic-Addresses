@@ -86,12 +86,11 @@ Task 2: Send the Response to the customer
 <br />
 
 <p>
-4. Copy and paste the names and IP addresses of both instances for future reference in a text editor. Select the check box next to instance A. At the bottom of the page, choose the Networking tab, and note the Public and Private IPv4 addresses. Once you copy and paste the name and IP addresses, deselect the instance, and then select instance B and do the same
+4. You should currently see one EC2 instance, which you can ignore for now. We will not use that instance since we will launch our own for task 1
 </p>
 
 <p>
-<img src=https://i.imgur.com/Kg8tLLb.png/>
-<img src=https://i.imgur.com/lcX9sBx.png/>
+<img src=https://i.imgur.com/s30Sb93.png/>
 </p>
 
 <p>
