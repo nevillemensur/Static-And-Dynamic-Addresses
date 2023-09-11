@@ -31,7 +31,7 @@ Cloud Admin
 </p>
 
 <p>
-Figure: The customer's architecture, which consists of a VPC, internet gateway, public subnet with instance A, and a public subnet with instance B.
+Figure: Customer VPC architecture, which includes one public and one EC2 instance.
 </p>
 <br />
 
