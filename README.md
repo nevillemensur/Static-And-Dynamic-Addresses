@@ -5,11 +5,11 @@
 
 <h1>AWS - Objectives</h1>
 
--Summarize and investigate the customer scenario
+-Analyze the difference between a statically and dynamically assigned IP addresses using EC2 instances
 
--Analyze the difference between a private and public IP address
+-Assign a persistent (static) IP to an EC2 instance
 
--Develop a solution to the customer's issue in this lab
+-Develop a solution to the customers issue found within this lab; after developing a solution, summarize and describe your findings
 
 <br />
 
@@ -17,12 +17,12 @@
 
 Hello, Cloud Support!
 
-We currently have one virtual private cloud (VPC with a CIDR range of 10.0.0.0/16. In this VPC, we have two Amazon Elastic Compute Cloud (Amazon EC2) instances: instance A and instance B. Even though both are in the same subnet and have the same configurations with AWS resources, instance A cannot reach the internet, and instance B can reach the internet. I think it has something to do with the EC2 instances, but I'm not sure. I also had a question about using a public IP address such as 12.0.0.0/16 for a VPC that I would like to launch. Would that cause any issues? Attached is our architecture for reference.
+We are having issues with one of our EC2 instances. The IP changes every time we start and stop this instance called Public Instance. This causes everything to break since it needs a static IP address. We are not sure why the IP changes on this instance to a random IP every time. Can you please investigate? Attached is our architecture. Please let me know if you have any questions.
 
 
 Thanks!
 
-Jess
+Bob
 
 Cloud Admin
 
