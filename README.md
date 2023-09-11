@@ -94,19 +94,18 @@ Task 2: Send the Response to the customer
 </p>
 
 <p>
-Figure: This is the EC2 dashboard where you can create instances and see an overall snapshot of current instances.. 
+Figure: This is the EC2 dashboard where you can create instances and see an overall snapshot of current instances. 
 </p>
 <br />
 
 <p>
-<img src=https://i.imgur.com/5hJmUf9.png/>
-<img src=https://i.imgur.com/ivbC3GR.png/>
+5. From the top right corner, select Launch instances. This is how you will launch EC2 instances from the console.
 </p>
 
 <p>
-Figure: Amazon EC2 instance B networking information.
+<img src=https://i.imgur.com/SpkoS34.png/>
 </p>
-<br />
+
 
 <h2>Task 2 Steps</h2>
 
