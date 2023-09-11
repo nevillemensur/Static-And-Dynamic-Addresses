@@ -42,8 +42,6 @@ Figure: Customer VPC architecture, which includes one public and one EC2 instanc
 <h2>Environments and Technologies Used</h2>
 
 - AWS Management Console
-- Remote Desktop SSH
-
 
 <h2>Operating Systems Used </h2>
 
@@ -51,9 +49,9 @@ Figure: Customer VPC architecture, which includes one public and one EC2 instanc
 
 <h2>List of Prerequisites</h2>
 
-Task 1: Investigate the customers enviroment
+Task 1: Investigate the customer's environment
 
-Task 2: Use SSH to connect to instance A and instance B
+Task 2: Send the Response to the customer
   
 
 <h2>Task Steps</h2>
