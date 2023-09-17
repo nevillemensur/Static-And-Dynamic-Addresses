@@ -109,19 +109,25 @@ Figure: This is the EC2 dashboard where you can create instances and see an over
 <p>
 6. Follow the steps below to complete the creation of an Amazon EC2 instance.
 
-Step 1: Choose an Amazon Machine Image (AMI): 
+Step 1: In the Names and Tags section give your instance a name. In this example, I will label our instance "Test Instance"
+
+<p>
+<img src=https://i.imgur.com/HUTc8PP.png/>
+</p>
+
+Step 2: Choose an Amazon Machine Image (AMI): 
 
 Select the first entry for Amazon Linux 2 AMI (HVM)
 
 An AMI is a template that contains the OS and configuration of the EC2 instance.
 
 
-Step 2: Choose an Instance Type:
+Step 3: Choose an Instance Type:
 
 Select t3.micro and navigate to the bottom of the window and click the button Next: Configure Instance Details
 
 
-Step 3: Configure Instance Details:
+Step 4: Configure Instance Details:
 
 Network: Choose vpc-xxxxxxxx | Lab VPC
 
@@ -132,21 +138,21 @@ Auto-assign Public IP: Set to enable
 Leave everything else as default and select Next: Add Storage Add Storage in the bottom right corner.
 
 
-Step 4: Add Storage: Leave as default and navigate to the bottom right of the window and select Next: Add Tags.
+Step 5: Add Storage: Leave as default and navigate to the bottom right of the window and select Next: Add Tags.
 
-Step 5: Add Tags:
+Step 6: Add Tags:
 
 Select Add Tag and under Key enter Name and under Value enter test instance
 
 Navigate to the bottom right of the window and select Next: Configure Security Group
 
 
-Step 6: Configure Security Group: 
+Step 7: Configure Security Group: 
 
 Under Assign a security group, select the Select an existing security group radio button and select the security group with the name Linux Instance SG. Then navigate to the bottom of the window and hit Review and Launch.
 
 
-Step 7: Review Instance Launch:
+Step 8: Review Instance Launch:
 
 Navigate to the bottom of the window and hit Launch.
 
