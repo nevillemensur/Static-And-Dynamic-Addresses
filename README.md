@@ -121,10 +121,18 @@ Select the first entry for Amazon Linux 2 AMI (HVM)
 
 An AMI is a template that contains the OS and configuration of the EC2 instance.
 
+<p>
+<img src=https://i.imgur.com/LKO8GGA.png/>
+</p>
+
 
 Step 3: Choose an Instance Type:
 
 Select t3.micro and navigate to the bottom of the window and click the button Next: Configure Instance Details
+
+<p>
+<img src=https://i.imgur.com/HXLrDoJ.png/>
+</p>
 
 
 Step 4: Configure Instance Details:
