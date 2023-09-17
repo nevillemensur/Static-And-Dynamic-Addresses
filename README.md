@@ -212,10 +212,9 @@ Under Key enter Name and under Value enter test instance then click save.
 </p>
 
 
-<h2>Task 2 Steps</h2>
 
 <p>
-1. Download PEM file and save the labsuser.pem file
+7. Download PEM file and save the labsuser.pem file
 <img src=https://i.imgur.com/uWCrR13.png/>
 </p>
 <br />
