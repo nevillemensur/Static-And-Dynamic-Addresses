@@ -143,13 +143,18 @@ Subnet: Choose subnet-xxxxxx | Public Subnet 1
 
 Auto-assign Public IP: Set to enable
 
-Leave everything else as default and select Next: Add Storage Add Storage in the bottom right corner.
-
+<p>
+<img src=https://i.imgur.com/wAG1zJR.png/>
+</p>
 
 
 Step 5: Configure Security Group: 
 
 Under Assign a security group, select the Select an existing security group radio button and select the security group with the name Linux Instance SG. Then navigate to the bottom of the window and hit Review and Launch.
+
+<p>
+<img src=https://i.imgur.com/krZDUWL.png/>
+</p>
 
 
 
