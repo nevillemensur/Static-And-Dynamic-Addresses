@@ -165,7 +165,21 @@ In the second drop down, select the key pair vockey | RSA.
 
 Check the box underneath the second drop down. Once checked, select Launch Instances.
 
+<p>
+<img src=https://i.imgur.com/XjcLqzq.png/>
+</p>
 
+<p>
+<img src=https://i.imgur.com/BB6u0kE.png/>
+</p>
+
+<p>
+<img src=https://i.imgur.com/09CCDzS.png/>
+</p>
+
+<p>
+<img src=https://i.imgur.com/XjcLqzq.png/>
+</p>
 
 
 Step 7: Add Tags:
