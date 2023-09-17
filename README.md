@@ -128,14 +128,14 @@ An AMI is a template that contains the OS and configuration of the EC2 instance.
 
 Step 3: Choose an Instance Type:
 
-Select t3.micro and navigate to the bottom of the window and click the button Next: Configure Instance Details
+Select t3.micro and navigate to the bottom of the window and click the button edt: Network settings
 
 <p>
 <img src=https://i.imgur.com/HXLrDoJ.png/>
 </p>
 
 
-Step 4: Configure Instance Details:
+Step 4: Network settings:
 
 Network: Choose vpc-xxxxxxxx | Lab VPC
 
@@ -146,21 +146,14 @@ Auto-assign Public IP: Set to enable
 Leave everything else as default and select Next: Add Storage Add Storage in the bottom right corner.
 
 
-Step 5: Add Storage: Leave as default and navigate to the bottom right of the window and select Next: Add Tags.
 
-Step 6: Add Tags:
-
-Select Add Tag and under Key enter Name and under Value enter test instance
-
-Navigate to the bottom right of the window and select Next: Configure Security Group
-
-
-Step 7: Configure Security Group: 
+Step 5: Configure Security Group: 
 
 Under Assign a security group, select the Select an existing security group radio button and select the security group with the name Linux Instance SG. Then navigate to the bottom of the window and hit Review and Launch.
 
 
-Step 8: Review Instance Launch:
+
+Step 6: Review Instance Launch:
 
 Navigate to the bottom of the window and hit Launch.
 
@@ -171,6 +164,31 @@ In the first drop down, keep Choose an existing key pair.
 In the second drop down, select the key pair vockey | RSA.
 
 Check the box underneath the second drop down. Once checked, select Launch Instances.
+
+
+
+
+Step 7: Add Tags:
+
+Navigate to the instance page and check the "Test Instance" box
+
+Select Tag and click Manage tags.
+
+Under Key enter Name and under Value enter test instance then click save.
+
+<p>
+<img src=https://i.imgur.com/tSNhZv4.png/>
+</p>
+
+
+<p>
+<img src=https://i.imgur.com/gwRQGeP.png/>
+</p>
+
+<p>
+<img src=https://i.imgur.com/RVFJDul.png/>
+</p>
+
   
 </p>
 
