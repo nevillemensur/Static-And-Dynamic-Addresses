@@ -56,7 +56,7 @@ Task 1: Investigate the customer's environment
 Task 2: Send the Response to the customer
   
 
-<h2>Task Steps</h2>
+<h2>Task 1: Investigate the customer's environment</h2>
 
 <p>
 1. Start by opening the AWS Management Console.
@@ -208,10 +208,13 @@ Under Key enter Name and under Value enter test instance then click save.
 <img src=https://i.imgur.com/RVFJDul.png/>
 </p>
 
-  
+10. Return to the EC2 dashboard and see the EC2 instance that was just created. Select test instance. Under the Instance state, you will see Initializing. Wait until it says 2/2 before continuing.
+
+<p>
+<img src=https://i.imgur.com/Tk6XAzT.png/>
 </p>
 
-
+Figure: Instances go through states, just like when a computer is booting up. When it is ready to use, the state will say "running" and you will be able to use it for services like SSH.
 
 <p>
 7. Download PEM file and save the labsuser.pem file
