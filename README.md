@@ -217,10 +217,18 @@ Under Key enter Name and under Value enter test instance then click save.
 Figure: Instances go through states, just like when a computer is booting up. When it is ready to use, the state will say "running" and you will be able to use it for services like SSH.
 
 <p>
-7. Download PEM file and save the labsuser.pem file
-<img src=https://i.imgur.com/uWCrR13.png/>
+11. Select the checkbox of your test instance. At the bottom, select the Networking tab. In this tab, observe and note the Public IPv4 address and the Private IPv4 address. Once noted, navigate to the top right of the window, select the Instance state drop-down button, and select Stop instance. Once the Instance state changes to Stopped, navigate back down to the tabs and observe the Public and Private IPv4 address.
+<img src=https://i.imgur.com/B4uKArT.png/>
 </p>
-<br />
+
+Figure: This is the networking tab for instances. This shows any networking configurations related to the instance such as public and private IPv4 addresses and public and private IPv4 DNS.
+
+<p>
+<img src=https://i.imgur.com/2fuTum9.png/>
+</p>
+
+Figure: To start, stop, or terminate an instance, navigate to the top of the EC2 dashboard and select the "Instance state" button.
+
 
 <p>
 2. Open a terminal window, and change directory cd to the directory where the labsuser.pem file was downloaded. For example, if the labuser.pem file was saved to your Downloads directory, run this command: cd ~/Downloads <img src=https://i.imgur.com/xbtTCBI.png/>
