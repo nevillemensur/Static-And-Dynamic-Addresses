@@ -213,40 +213,45 @@ Under Key enter Name and under Value enter test instance then click save.
 <p>
 <img src=https://i.imgur.com/Tk6XAzT.png/>
 </p>
-
 Figure: Instances go through states, just like when a computer is booting up. When it is ready to use, the state will say "running" and you will be able to use it for services like SSH.
+<br />
+
+
+
 
 <p>
 11. Select the checkbox of your test instance. At the bottom, select the Networking tab. In this tab, observe and note the Public IPv4 address and the Private IPv4 address. Once noted, navigate to the top right of the window, select the Instance state drop-down button, and select Stop instance. Once the Instance state changes to Stopped, navigate back down to the tabs and observe the Public and Private IPv4 address.
 <img src=https://i.imgur.com/B4uKArT.png/>
 </p>
-
 Figure: This is the networking tab for instances. This shows any networking configurations related to the instance such as public and private IPv4 addresses and public and private IPv4 DNS.
 
 <p>
 <img src=https://i.imgur.com/2fuTum9.png/>
 </p>
-
 Figure: To start, stop, or terminate an instance, navigate to the top of the EC2 dashboard and select the "Instance state" button.
+<br />
 
 
+
+<p>
 12. Now restart the test instance by navigating to the top window and selecting the Instance state and Start instance. Wait until the Instance state changes to Running. Take note of the Public and Private IPv4 addresses. What did you notice between the public and private IP addresses when you stopped and started the EC2 instance? Would you consider this the Public IP a static or dynamic IP address? What would you consider the Private IP address for the EC2 instance? Do you think we have replicated the customer's issue?
 </p>
+<br />
+
+<p>
 <img src=https://i.imgur.com/NjYofu6.png/>
 </p>
-
 Figure: By starting the instance, you can see the details populate in the Networking tab.
+<br />
 
 
 
-13. We still haven't solved the customer's issue. Bob needs a permanent Public IP address that doesn't change when he stops and restarts his instance. AWS does have a solution that allocates a persistent public IP address to an EC2 instance, called an Elastic IP (EIP).
+<p>
+13. We still haven't solved the customer's issue. Bob needs a permanent Public IP address that doesn't change when he stops and restarts his instance. AWS does have a solution that allocates a persistent public IP address to an EC2 instance, called an Elastic IP (EIP). From the EC2 dashboard, navigate to Network and Security on the left navigation and select Elastic IPs. Notice that there are no EIPs. Create one by selecting the button Allocate Elastic IP address in the top right. Keep everything as default and hit Allocate. Take note of the EIP address.
 </p>
+
+<p>
 <img src=https://i.imgur.com/6AxXGoG.png/>
 </p>
-
 Figure: Within the EC2 dashboard, under "Network and Security" in the left navigation, select "Elastic IPs"
-
-
-
-From the EC2 dashboard, navigate to Network and Security on the left navigation and select Elastic IPs. Notice that there are no EIPs. Create one by selecting the button Allocate Elastic IP address in the top right. Keep everything as default and hit Allocate. Take note of the EIP address.
 
