@@ -230,31 +230,23 @@ Figure: This is the networking tab for instances. This shows any networking conf
 Figure: To start, stop, or terminate an instance, navigate to the top of the EC2 dashboard and select the "Instance state" button.
 
 
-<p>
 12. Now restart the test instance by navigating to the top window and selecting the Instance state and Start instance. Wait until the Instance state changes to Running. Take note of the Public and Private IPv4 addresses. What did you notice between the public and private IP addresses when you stopped and started the EC2 instance? Would you consider this the Public IP a static or dynamic IP address? What would you consider the Private IP address for the EC2 instance? Do you think we have replicated the customer's issue?
 </p>
 <img src=https://i.imgur.com/NjYofu6.png/>
 </p>
 
+Figure: By starting the instance, you can see the details populate in the Networking tab.
 
-<p>
-3. Change the permissions on the key to be read-only, by running this command: chmod 400 labsuser-7.pem <img src=https://i.imgur.com/T5v67gr.png/>
+
+
+13. We still haven't solved the customer's issue. Bob needs a permanent Public IP address that doesn't change when he stops and restarts his instance. AWS does have a solution that allocates a persistent public IP address to an EC2 instance, called an Elastic IP (EIP).
 </p>
-<br />
-
-<p>
-4. Run the command: ssh -i labsuser-7.pem ec2-user@10.0.10.102. We were not able to connect to instance A. <img src=https://i.imgur.com/gjyhCl7.png/>
+<img src=https://i.imgur.com/6AxXGoG.png/>
 </p>
-<br />
 
-<p>
-5.Run the command: ssh -i labsuser-7.pem ec2-user@35.91.189.114. We were able to connect to instance B using the public IP address. <img src=https://i.imgur.com/zuK7VZ4.png/>
-</p>
-<br />
+Figure: Within the EC2 dashboard, under "Network and Security" in the left navigation, select "Elastic IPs"
 
-<h2>Recap</h2>
 
-<p>
-In this lab you have investigated the customer's environment and applied troubleshooting techniques that allowed you to resolve the customers’ issue. Within the scenario, you discovered that the customer's EC2 instance (instance A) needed a public IP address to connect to the internet. This was tested by using an SSH utility to connect to the instance. Private IP addresses are used within the VPC and cannot establish a connection to the internet
-</p>
-<br />
+
+From the EC2 dashboard, navigate to Network and Security on the left navigation and select Elastic IPs. Notice that there are no EIPs. Create one by selecting the button Allocate Elastic IP address in the top right. Keep everything as default and hit Allocate. Take note of the EIP address.
+
