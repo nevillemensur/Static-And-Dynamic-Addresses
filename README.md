@@ -323,3 +323,8 @@ Best regards,
 
 Neville Mensur
 
+
+<h2>Recap</h2>
+
+In this lab, you have investigated the customer's environment and applied troubleshooting techniques that allowed you to resolve the customers’ issue. Within the scenario, you discovered that the customer Amazon EC2 instance (public instance) had a dynamic IP address which caused it to constantly change IPs when the instance was stopped and started. In order to fix this issue, you suggested attaching an EIP in order for the IP to become persistent (static). This was tested by SSHing into the test instance and starting and stopping it with a dynamic IP address.
+
