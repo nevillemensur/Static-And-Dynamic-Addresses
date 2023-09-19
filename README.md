@@ -260,5 +260,35 @@ Figure: By starting the instance, you can see the details populate in the Networ
 <p>
 <img src=https://i.imgur.com/6AxXGoG.png/>
 </p>
-Figure: Within the EC2 dashboard, under "Network and Security" in the left navigation, select "Elastic IPs"
 
+Figure: Within the EC2 dashboard, under "Network and Security" in the left navigation, select "Elastic IPs"
+<br />
+
+<p>
+  
+14. Select the EIP you just created by selecting the checkbox. Now attach this permanent, public IP address to the dynamic instance by navigating to the top right and navigating to Actions and Associate Elastic IP address.
+    
+</p>
+
+<p>
+<img src=https://i.imgur.com/yvvegcy.png/>
+
+Figure: The EIP created will now be associated to the EC2 instance by going to the actions menu and selecting "Associate Elastic IP address".
+<br />
+
+</p>
+
+<p>
+  
+15. Leave the resource type as Instance, and select test instance from the Choose an Instance drop down menu. Under Private IP address, select the empty box. The Private IP associated with that instance is selected. Click the Associate button
+
+<p>
+<img src=https://i.imgur.com/vRgFLWA.png/>
+</p>
+
+
+16. Navigate back to the Instances page using the left navigation pane. Select the checkbox for the test instance and navigate to the Networking tab. Take note of the Public IPv4 address. Did you notice that the EIP address is now the Public IP address? Now stop and start the instance and observe the differences. What did you observe? Is this a static or dynamic IP address? Did you solve the customer's issue? Why or why not?
+
+<p>
+<img src=https://i.imgur.com/w5rPjrX.png/>
+</p>
