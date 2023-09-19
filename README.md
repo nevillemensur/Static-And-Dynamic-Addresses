@@ -292,3 +292,34 @@ Figure: The EIP created will now be associated to the EC2 instance by going to t
 <p>
 <img src=https://i.imgur.com/w5rPjrX.png/>
 </p>
+
+<h2>Task 2: Response to the customer </h2>
+
+Subject: Re: Issue with IP Address for Public Instance
+
+Hello Bob,
+
+Thank you for reaching out to Cloud Support regarding the issue with the IP address for your EC2 instance, Public Instance. I understand the frustration this must be causing, and I'm here to help you resolve this problem.
+
+The reason your EC2 instance's IP address changes every time you start and stop it is due to the absence of an Elastic IP address associated with it. When you launch an EC2 instance without allocating a public IP address or attaching an Elastic IP, AWS assigns a dynamic public IP address. This dynamic IP address is subject to change whenever the instance is stopped and started again.
+
+To fix this issue and provide your EC2 instance with a static IP address, we recommend associating an Elastic IP address with it. An Elastic IP address is a static, public IPv4 address that remains the same even if the instance is stopped and started. This ensures consistent connectivity for your applications and services.
+
+Here's how you can associate an Elastic IP address with your EC2 instance:
+
+Sign in to the AWS Management Console.
+Navigate to the EC2 Dashboard.
+In the navigation pane, under "Network & Security," select "Elastic IPs."
+Choose "Allocate new address" and then select "Allocate."
+After the allocation is complete, select the newly created Elastic IP address.
+Click on the "Actions" button, and choose "Associate IP address."
+In the Associate Elastic IP address dialog box, select the instance you want to associate with the Elastic IP address (in your case, Public Instance).
+Confirm the association, and the Elastic IP address will now be linked to your EC2 instance.
+This should resolve the issue of your EC2 instance's IP address changing upon restart. Please make sure to update your DNS records or configurations to use the Elastic IP address for consistent connectivity.
+
+If you have any further questions or encounter any difficulties during this process, please feel free to reach out to us. We're here to assist you.
+
+Best regards,
+
+Neville Mensur
+
